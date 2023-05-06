@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>Форма бронирования переговорной</title>
+    </head>
+<body>
+  <h2>Заполните форму бронирования переговорной</h2>
+<form id="booking-form">
+  <label for="tower-select">Выберите башню:</label>
+  <select id="tower-select">
+    <option value="tower-A">Башня А</option>
+    <option value="tower-B">Башня Б</option>
+  </select>
+  
+  <label for="floor-select">Выберите этаж:</label>
+  <select id="floor-select">
+    <option value="floor-3">3 этаж</option>
+    <option value="floor-4">4 этаж</option>
+    <option value="floor-5">5 этаж</option>
+    <option value="floor-6">6 этаж</option>
+    <option value="floor-7">7 этаж</option>
+    <option value="floor-8">8 этаж</option>
+    <option value="floor-9">9 этаж</option>
+    <option value="floor-10">10 этаж</option>
+    <option value="floor-11">11 этаж</option>
+    <option value="floor-12">12 этаж</option>
+    <option value="floor-13">13 этаж</option>
+    <option value="floor-14">14 этаж</option>
+    <option value="floor-15">15 этаж</option>
+    <option value="floor-16">16 этаж</option>
+    <option value="floor-17">17 этаж</option>
+    <option value="floor-18">18 этаж</option>
+    <option value="floor-19">19 этаж</option>
+    <option value="floor-20">20 этаж</option>
+    <option value="floor-21">21 этаж</option>
+    <option value="floor-22">22 этаж</option>
+    <option value="floor-23">23 этаж</option>
+    <option value="floor-24">24 этаж</option>
+    <option value="floor-25">25 этаж</option>
+    <option value="floor-26">26 этаж</option>
+    <option value="floor-27">27 этаж</option>
+  </select>
+  
+  <label for="room-select">Выберите переговорную:</label>
+  <select id="room-select">
+    <option value="room-1">Переговорная 1</option>
+    <option value="room-2">Переговорная 2</option>
+    <option value="room-3">Переговорная 3</option>
+    <option value="room-4">Переговорная 4</option>
+    <option value="room-5">Переговорная 5</option>
+    <option value="room-6">Переговорная 6</option>
+    <option value="room-7">Переговорная 7</option>
+    <option value="room-8">Переговорная 8</option>
+    <option value="room-9">Переговорная 9</option>
+    <option value="room-10">Переговорная 10</option>
+  </select>
+  
+  <label for="date-picker">Выберите дату:</label>
+  <input type="date" id="date-picker">
+  
+  <label for="time-picker">Выберите время:</label>
+  <input type="time" id="time-picker">
+  
+  <label for="comment-input">Добавьте комментарий:</label>
+  <textarea id="comment-input"></textarea>
+  
+  <button type="submit">Отправить</button>
+  <button type="button" id="clear-button">Отчистить</button>
+</form>
+<script src="booking.js"></script> 
+</body>
+</html>
